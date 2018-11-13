@@ -1,7 +1,52 @@
+#page{
+    align-content:center;
+    background-image: url(https://www.google.com.jm/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjO-cbX-9HeAhUQnlkKHUTNAqkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.nasa.gov%2Faudience%2Fforstudents%2Fk-4%2Fstories%2Fnasa-knows%2Fwhat-is-a-black-hole-k4.html&psig=AOvVaw3U6uuaMP4_myDLiUldQgnM&ust=1542219008501701);
+  }
+#content{
+    
+    display: block;
+    background-color: lightblue;
+    background-size: auto auto;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+} 
+form{
+    display: inline;
+}
+h1{
+    color: white;
+}
+    
 
-
-
+#top{
+    
+    border-bottom: solid #c2d6d6;
+}
+#banner{
+    background-size: 300px 350px;
+    background-position: center;
+    background-color: rgb(102, 153, 153);
+    align-content: center;
+}
 
 #result{
+    background-size: auto auto;
+    background-color: #D3D3D3;
+    border-bottom:solid #c2d6d6 12px;
+    border-top: double #c2d6d6 12px;
+}
+
+.button{
     
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+.button:hover {
+    background: #0b7dda;
 }

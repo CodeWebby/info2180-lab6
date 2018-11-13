@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> </title>
+         <link rel="stylesheet" href="lab6.css" type="text/css" />
+         <script type="text/javascript" src="lab6.js"></script>
+        <title> Dictionary </title>
     </head>
     <body>
-        <link rel="stylesheet" href="lab6.css" type="text/css" />
-        <script type="text/javascript" src="lab6.js"></script>
-        <button id = "button"> Search </button> 
-        <p>Definition: <span id="demo"></span></p>
-        
-        
-        <div id = result>
-            
+        <div id ="page" >
+        <div id ="banner">
+            <h1> Online Dictionary </h1>
         </div>
-
+            <div id = "content">
+                <p> Lookup the definition of a word (e.g. ajax, html, bar, php, javascript or css) </p>
+                <form>
+                    <input type="text" name="Term" value = "Enter Term"/>
+                    <input type="button" value="Search" id="button1"/>
+                    <input type="button" value="Get All Definitions" id = "button2"/>
+                </form>
+                    <div id = result>
+                        <h2> Results </h2>
+            
+                    </div>
+            </div>
+          </div>
     </body>
 </html>
