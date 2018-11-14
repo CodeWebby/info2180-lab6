@@ -35,11 +35,11 @@ window.onload = function () {
          }
          
          all.onclick = function Everything(){
-             var url1 = "request.php?q=&all=true";
+             var url1 = "request.php";
               var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
-             document.getElementById("result").innerHTML = this.responseText;
+             document.getElementById("result").innerHTML = this.responseXML;
             
     
             }
@@ -47,5 +47,15 @@ window.onload = function () {
             xhttp.open("GET", url1, true);
             xhttp.send(null);
          }
+         
+         var x = document.createElement("OL");
+         x.setAttribute("id", "myOl");
+         document.getElementById("result").appendChild(x);
+         var y = document.getElementsByTagName("definition");
+         var z = document.createElement("LI")
+         for(var i = 0;i<y.length;i++){
+             y.insertBefore(z);
+         }
+         
          
 }
